@@ -237,3 +237,272 @@ span i{
 footer a:hover,footer i:hover{
   color: rgba(255, 107, 107, 0.6);
 }
+
+
+.main_product .carousel-control{
+  background-color: #fff;
+  color:#333;
+  border-radius: 50%;
+  width:50px;
+  height: 50px;
+  line-height: 50px;
+  font-size:1rem;
+  text-align: center;
+  top:30%;
+}
+.main_product .carousel-control:hover{
+  background-color: #00a885;
+  color:#fff;
+}
+.main_product .carousel-control.left{
+  left:-1.4%;
+  box-shadow: -1px 0px 0px 0px;
+}
+.main_product .carousel-control.right {
+  
+  right:-1.4%;
+  box-shadow: 1px 0px 0px 0px;
+}
+
+
+.main_product .port_img{
+  position: relative;
+  overflow: hidden;
+}
+
+.main_product .port_img img{
+  width:100%;
+}
+.main_product .port_overlay{
+  width:100%;
+  height: 100%;
+  background-color: rgba(0,168,133,0.60);
+  position: absolute;
+  left:0;
+  top:0;
+  padding-top: 25%;
+  opacity: 0;
+  transition: all 0.2s;
+}
+.main_product .port_overlay a{
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  text-align: centre;
+  display: inline-block;
+  font-size:15px;
+  color:#000;
+  font-weight: bold;
+}
+.main_product .port_img:hover .port_overlay a{
+  bottom:0;
+}
+.main_product .port_img:hover .port_overlay{
+  opacity: 1;
+}
+.port_caption h6{
+  font-weight: bold;
+}
+
+
+
+/*Test Section
+======================*/
+.main_test{
+  width: 100%;
+  display: block;
+}
+.test_item{
+  padding: 40px;
+  transition: all 0.6s;
+  border:1px solid transparent;
+}
+.test_item:hover{
+  border:1px solid #ddd;
+  background-color: #fff;
+}
+.test_item:hover .item_img i{
+  color:#fff;
+  background-color: #00a885;
+}
+
+.main_test .item_img{
+  float: left;
+  display: inline-block;
+  width:20%;
+  margin-right: 10%;
+}
+.main_test .item_text{
+  display: inline-block;
+  width:70%;
+}
+.item_img{
+  position: relative;
+}
+.item_img i{
+  background-color: #fff;
+  position: absolute;
+  right: -25%;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #ddd;
+  border-radius: 50%;
+  box-shadow: 1px 0px 0px 0px #ddd;
+}
+
+/*Brand Section
+=========================*/
+.brand{
+  background-color: #C0E7E8;
+}
+.main_brand h1{
+  font-weight: bold;
+}
+.brand_item img{
+
+ height: 250px;
+ width: 250px;
+ margin-bottom: 10px;
+ 
+}
+.brand_item h4{
+  font-weight: bold;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+td{
+ 
+padding: 30px;
+
+}
+table{
+  width: 100%;
+}
+
+
+/* Clear floats after image containers */
+/*.brand_item .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.brand_item .row {
+display: flex;
+}*/
+
+/*Footer section*/
+.divider{
+  width:100%;
+  height: 1px;
+  background-color: #434769;
+  display: inline-block;
+}
+.widget_ab_item_text h6{
+  margin-bottom:5px;
+}
+.widget_item h5{
+  font-weight: 700;
+}
+.widget_item .btn:hover{
+  background-color: #0ec9a2;
+}
+.widget_item li a{
+  color:#aaa;
+}
+.widget_item li a:hover{
+  color:#fff;
+}
+
+.widget_latst_item_text p{
+  margin-bottom: 0px;
+  color:#aaaaaa;
+}
+.widget_service li i,
+.widget_latst_item_text a{
+  font-size:12px;
+  color:#aaaaaa;
+}
+.widget_service li i{
+  margin-right: 5px;
+}
+.widget_service li{
+  font-size:13px;
+  border-bottom: 1px dashed #aaa;
+  padding-bottom: 10px;
+}
+.widget_newsletter li a:hover i,
+.widget_latst_item_text:hover p,
+.widget_service li:hover,
+.widget_service li:hover i{
+  color:#fff;
+}
+
+.widget_ab_item .item_icon,
+.widget_latst_item .item_icon{
+  float: left;
+  width: 20%;
+  display: inline-block;
+  margin-right: 15px;
+}
+.widget_ab_item .widget_ab_item_text,
+.widget_latst_item .widget_latst_item_text {
+  display: inline-block;
+  width: 70%;
+}
+.widget_ab_item .item_icon{
+  float: left;
+  width: 10%;
+  display: inline-block;
+  margin-right: 15px;
+}
+.widget_ab_item .widget_ab_item_text {
+  display: inline-block;
+  width: 80%;
+}
+.widget_newsletter .form-inline .form-group{
+  display: block;
+}
+.widget_newsletter .form-control{
+  width:80%;
+  height: 40px;
+  background-color: #1a1a1a;
+  border-color:#333333;
+  display: inline-block;
+}
+.widget_newsletter .btn{
+  width: 20%;
+  padding: 0.65rem 1.2rem;
+  background-color: #00a885;
+  border-color:#00a885;
+  color:#fff;
+  border-radius: 0;
+  margin-left:-4px;
+  display: inline-block;
+}
+.widget_brand a{
+  font-size:30px;
+  font-weight: 800;
+  color:#aaa;
+}
+.widget_newsletter li a i{
+  color:#aaa;
+}
+
+
+.main_footer i {
+  padding: 0px 5px;
+  color: #ff0000;
+}
+
+.main_footer a {
+  color: #ddd;
+  padding: 5px;
+}
+.port_img img{
+  height: 250px;
+  width: 290px;
+}
