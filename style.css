@@ -14,9 +14,14 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+/* Classes for Logo Image and Group Image */ 
+.wieIMG {margin-left: 7rem; padding-right: 2rem;}
+.logo_img { margin-right: 1rem; margin-top:0rem; height: 4rem; width: 6rem;}
+
 /* NAVBAR */
 .navbar {
-  padding: 0.5rem 12rem !important;
+  padding: 0.5rem 10rem !important;
   background-color: rgba(8, 32, 50, 0.85);
 }
 @media screen and (max-width: 1024px) {
