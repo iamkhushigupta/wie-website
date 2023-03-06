@@ -14,7 +14,10 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
+.img-fluid{
+  height: 100%;
+  width: 100%;
+}
 /* Classes for Logo Image and Group Image */ 
 .wieIMG {margin-left: 7rem; padding-right: 2rem;}
 .logo_img { margin-right: 1rem; margin-top:0rem; height: 4rem; width: 6rem;}
