@@ -192,6 +192,7 @@ strong {
   font-weight: 600;
 }
 
+
 /* FOOTER */
 
 footer {
@@ -280,6 +281,20 @@ footer a:hover,footer i:hover{
   text-align: center;
   top:30%;
 }
+.carousel-control {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+  background-color: rgba(0, 0, 0, 0);
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
 
 .main_product .carousel-control:hover{
   background-color: #00a885;
@@ -290,11 +305,16 @@ footer a:hover,footer i:hover{
   box-shadow: -1px 0px 0px 0px;
 }
 .main_product .carousel-control.right {
-  
   right:-1.4%;
   box-shadow: 1px 0px 0px 0px;
 }
-
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat:repeat-x
+}
 
 .main_product .port_img{
   position: relative;
@@ -337,93 +357,6 @@ footer a:hover,footer i:hover{
 }
 
 
-
-/*Test Section
-======================*/
-.main_test{
-  width: 100%;
-  display: block;
-}
-.test_item{
-  padding: 40px;
-  transition: all 0.6s;
-  border:1px solid transparent;
-}
-.test_item:hover{
-  border:1px solid #ddd;
-  background-color: #fff;
-}
-.test_item:hover .item_img i{
-  color:#fff;
-  background-color: #00a885;
-}
-
-.main_test .item_img{
-  /* float: left; */
-  display: inline-block;
-  width:20%;
-  margin-right: 10%;
-}
-.main_test .item_text{
-  display: inline-block;
-  width:70%;
-}
-.item_img{
-  position: relative;
-}
-.item_img i{
-  background-color: #fff;
-  position: absolute;
-  right: -25%;
-  top: 50%;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  color: #ddd;
-  border-radius: 50%;
-  box-shadow: 1px 0px 0px 0px #ddd;
-}
-
-/*Brand Section
-=========================*/
-.brand{
-  background-color: #C0E7E8;
-}
-.main_brand h1{
-  font-weight: bold;
-}
-.brand_item img{
-
- height: 250px;
- width: 250px;
- margin-bottom: 10px;
- 
-}
-.brand_item h4{
-  font-weight: bold;
-}
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-td{
- 
-padding: 30px;
-
-}
-table{
-  width: 100%;
-}
-
-
-/* Clear floats after image containers */
-/*.brand_item .row::after {
-content: "";
-clear: both;
-display: table;
-}
-
-.brand_item .row {
-display: flex;
-}*/
 
 /*Footer section*/
 .divider{
