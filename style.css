@@ -55,6 +55,12 @@ body {
     padding: 0 !important;
   }
 }
+.wie_logo{
+  height :80px;
+  position:fixed;
+  left: 85px;
+  width:95px;
+}
 .navbar-nav {
   margin-left: auto;
 }
