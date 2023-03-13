@@ -56,10 +56,12 @@ body {
   }
 }
 .wie_logo{
-  height :80px;
-  position:fixed;
-  left: 85px;
-  width:95px;
+  height :70px;
+  width:85px;
+}
+.logo_img{
+  height :70px;
+  width:120px;
 }
 .navbar-nav {
   margin-left: auto;
