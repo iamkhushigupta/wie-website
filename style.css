@@ -55,6 +55,14 @@ body {
     padding: 0 !important;
   }
 }
+.wie_logo{
+  height :70px;
+  width:85px;
+}
+.logo_img{
+  height :70px;
+  width:120px;
+}
 .navbar-nav {
   margin-left: auto;
 }
